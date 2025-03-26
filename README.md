@@ -1,26 +1,23 @@
 # sprint_5
 
-Файл registration_successfull.py проверяет регистрацию с валидными данными
+Метод test_registration_correct_data проверяет регистрацию с валидными данными
 
-Файл regisration_incorrect_password.py проверяет ошибку при регитсрации с некорректным паролем
+Метод test_registration_incorrect_password проверяет ошибку при регитсрации с некорректным паролем
 
-Файл login_home_page.py проверяет вход через кнопку «Войти в аккаунт» на главной странице
+Метод test_login_from_home_page проверяет вход через кнопку «Войти в аккаунт» на главной странице
 
-Файл login_button_my_account.py проверяет вход через кнопку «Личный кабинет» на главной странице
+Метод test_login_in_button_my_account проверяет вход через кнопку «Личный кабинет» на главной странице
 
-Файл login_button_registration_form.py проверяет вход через форму регистрации
+Метод test_login_from_registration_page проверяет вход через форму регистрации
 
-Файл login_button_recovery_password_form.py проверяет вход через форму восстановления пароля
+Метод test_login_from_recovery_password_page проверяет вход через форму восстановления пароля
 
-Файл go_to_personal_account.py проверяет переход в личный кабинет
+Метод test_personal_account_transition_for_home_page проверяет переход в личный кабинет
 
-Файл personal_account_transition_constructor.py проверяет переход в конструктор по нажатию иконки «конструктор» из 
-личного кабинета
+Метод test_personal_account_transition_constructor проверяет переход в конструктор по нажатию иконки «конструктор» из личного кабинета
 
-Файл personal_account_transition_stellar_burgers.py проверяет переход в конструктор по нажатию иконки «Stella 
-Burgers» из личного кабинета
+Метод test_personal_account_transition_in_button_stellar_burgers проверяет переход в конструктор по нажатию иконки «Stellar Burgers» из личного кабинета
 
-Файл logout_from_personal_account.py проверяет выход из личного кабинета по нажатию иконки «Выход»
+Метод test_logout_from_personal_account_page проверяет выход из личного кабинета по нажатию иконки «Выход»
 
-Файл transition_buns_sauses_fillings.py проверяет переход к разделам «Булки», «Соусы» и «Начинки» на странице 
-конструктора
+Метод test_transition_on_section_constructor проверяет переход к разделам «Булки», «Соусы» и «Начинки» на странице конструктора

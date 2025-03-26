@@ -1,12 +1,13 @@
 import pytest
-import random
-import string
+from selenium import webdriver
+from src.constants import Constants
 
 
+# Запуск и закрытие драйвера
 @pytest.fixture
-def get_random_email():
-    return f"ilon_mask_{random.randint(100, 999)}@yandex.ru"
-
-@pytest.fixture
-def get_random_password():
-    return ''.join(random.choices(string.ascii_letters + string.digits, k=6))
+def driver():
+    chrome = webdriver.Chrome()
+    chrome.maximize_window()
+    chrome.get(Constants.HOME_URL)
+    yield chrome
+    chrome.quit()
